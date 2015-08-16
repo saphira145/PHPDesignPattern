@@ -9,6 +9,6 @@ class Customer implements Observer {
 		$this->name = $name;
 	}
 	public function notify($price) {
-		echo "notify to user name {$this->name} that product price is changed: {$price}";
+		echo "notify to user name {$this->name} that product price is changed: {$price}" . "</br>";
 	}
 }

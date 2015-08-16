@@ -8,7 +8,7 @@ class Product implements Subject {
 
 	protected $price;
 
-	protected $obs = array();
+	protected $obs = [];
 
 	public function __construct($name, $price) {
 
